@@ -12,6 +12,7 @@
   </div>
 
   <h3 align="center">A 3D Developer Portfolio</h3>
+  <h4 align="center">Live Demo: <a href="https://lomashsrivastava.github.io/3d-Portfolio-React/">https://lomashsrivastava.github.io/3d-Portfolio-React/</a></h4>
 
    <div align="center">
      Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
