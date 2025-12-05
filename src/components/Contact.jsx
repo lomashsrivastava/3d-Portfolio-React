@@ -37,7 +37,7 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Lomash",
           from_email: form.email,
           to_email: "sujata@jsmastery.pro",
           message: form.message,
@@ -121,6 +121,16 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
+
+        <div className="mt-10 flex flex-col gap-4">
+          <h4 className="text-white font-bold text-[18px]">Connect with me</h4>
+          <a href="https://www.linkedin.com/in/lomashsrivastava/" target="_blank" rel="noopener noreferrer" className="text-secondary hover:text-white text-[16px]">
+            LinkedIn Profile
+          </a>
+
+          <h4 className="text-white font-bold text-[18px] mt-4">Support / Payment</h4>
+          <p className="text-secondary text-[16px]">PhonePe ID: 7355338964@ybl</p>
+        </div>
       </motion.div>
 
       <motion.div

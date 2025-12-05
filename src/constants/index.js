@@ -42,7 +42,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
@@ -116,55 +116,16 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Full Stack Developer",
+    company_name: "Freelance",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Collaborating with clients to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participating in code reviews and providing constructive feedback.",
     ],
   },
 ];
@@ -172,42 +133,70 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Lomash is an exceptional developer who delivered our project on time and exceeded expectations.",
+    name: "Client 1",
+    designation: "CEO",
+    company: "Tech Corp",
+    image: "https://randomuser.me/api/portraits/men/1.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "LomashStay",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Hotel Booking App. Tech: HTML, CSS, JS, Node.js, Express.js, Netlify.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/lomashsrivastava/LomashStay-Hotel-Booking-App",
+    netlify_link: "https://lomashstay.netlify.app/",
+  },
+  {
+    name: "Advance Hotel Booking",
+    description:
+      "Advance Hotel Booking System. Tech: HTML5, CSS3, JS, Anime.js, Chart.js.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "chartjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/lomashsrivastava/Hotel-Booking-Management-System",
+    netlify_link: "https://lomashbookingsystem.netlify.app/",
+  },
+  {
+    name: "Lomash Resume Matcher",
+    description:
+      "AI Resume Matcher. Tech: React, Vite, Tailwind, Python, FastAPI, AI/ML.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "python",
         color: "green-text-gradient",
       },
       {
@@ -215,41 +204,65 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: tripguide,
+    source_code_link: "https://github.com/lomashsrivastava/Resume-Matcher-With-AI",
+    netlify_link: "https://lomashresumematcher.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "Laxmi Tour",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Tour & Travel Website. Tech: HTML5, CSS3, JS, GSAP, AI Simulation.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "gsap",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/lomashsrivastava/Laxmi-Travels---Tour-And-Travel-Website-With-Package-AI-Integration",
+    netlify_link: "https://laxmitour.netlify.app/",
+  },
+  {
+    name: "Advance Contact Manager",
+    description:
+      "Contact Manager App. Tech: HTML5, CSS3, Vanilla JS, Local Storage.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/lomashsrivastava/Advance-Contact-Manager",
+    netlify_link: "https://lomashcontact.netlify.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Lomash Markets",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Ecommerce Store. Tech: HTML5, CSS3, Vanilla JS, E-commerce features.",
     tags: [
       {
-        name: "nextjs",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
@@ -258,7 +271,146 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/lomashsrivastava/Lomash-Market-Ecommerce-Store",
+    netlify_link: "https://lomashmarkets.netlify.app/",
+  },
+  {
+    name: "Advance Portfolio",
+    description:
+      "Advance Portfolio. Tech: HTML5, CSS3, Vanilla JS, AOS, Tilt.js.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/lomashsrivastava/Portfolio-Website",
+    netlify_link: "https://lomash.netlify.app/",
+  },
+  {
+    name: "Hotel Booking Website",
+    description:
+      "Hotel Booking Website. Tech: ReactJS, NODEJS.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "#",
+    netlify_link: "https://lomashbooking1.netlify.app/",
+  },
+  {
+    name: "SignIn Dashboard",
+    description:
+      "SignIn Dashboard. Tech: ReactJs, NodeJs, Python, Django.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "django",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "#",
+    netlify_link: "https://lomashdashboard.netlify.app/signin",
+  },
+  {
+    name: "React Login Dashboard",
+    description:
+      "React Login Dashboard. Tech: React, Create React App, CSS3.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/lomashsrivastava/futuristic-login-react",
+    netlify_link: "https://futuristicloginreact.netlify.app/",
+  },
+  {
+    name: "3D ToDo App",
+    description:
+      "3D ToDo App. Tech: ReactJs, Node, Python.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "#",
+    netlify_link: "https://lomashtodoai.netlify.app/",
+  },
+  {
+    name: "Login Dashboard AI",
+    description:
+      "Login Dashboard AI. Tech: React Js, Tailwind CSS.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "#",
+    netlify_link: "https://lomashlogin.netlify.app/",
+  },
+  {
+    name: "Lomash UI",
+    description:
+      "Dashboard Project. Tech: HTML5, CSS3, JS, Canvas, TensorFlow.js.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tensorflow",
+        color: "green-text-gradient",
+      },
+      {
+        name: "threejs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/lomashsrivastava/Advance-UI-Dashboard",
+    netlify_link: "https://lomashui.netlify.app/",
   },
 ];
 
